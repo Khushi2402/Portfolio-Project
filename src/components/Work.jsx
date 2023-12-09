@@ -33,7 +33,7 @@ const Work = () => {
               aria-label="Article"
               className="inline-block mb-3 text-black transition-colors duration-200 hover:text-deep-purple-accent-700"
             >
-              <button className="text-white bg-sky-700 border-0 py-2 px-8 focus:outline-none hover:bg-sky-800 rounded text-lg">Open</button>
+              <button className="text-white bg-sky-700 border-0 py-2 px-4 focus:outline-none hover:bg-sky-800 rounded text-base">Open</button>
               <p className="font-title mt-5 text-xl font-bold leading-5">Ride.ev</p>
             </a>
           </div>
@@ -53,7 +53,7 @@ const Work = () => {
               aria-label="Article"
               className="inline-block mb-3 text-black transition-colors duration-200 hover:text-deep-purple-accent-700"
             >
-              <button className="text-white bg-sky-700 border-0 py-2 px-8 focus:outline-none hover:bg-sky-800 rounded text-lg">Open</button>
+              <button className="text-white bg-sky-700 border-0 py-2 px-4 focus:outline-none hover:bg-sky-800 rounded text-base">Open</button>
               <p className="font-title text-xl mt-5 font-bold leading-5">Meal Planner</p>
             </a>
           </div>
@@ -73,7 +73,7 @@ const Work = () => {
               aria-label="Article"
               className="inline-block mb-3 text-black transition-colors duration-200 hover:text-deep-purple-accent-700"
             >
-              <button className="text-white bg-sky-700 border-0 py-2 px-8 focus:outline-none hover:bg-sky-800 rounded text-lg">Open</button>
+              <button className="text-white bg-sky-700 border-0 py-2 px-4 focus:outline-none hover:bg-sky-800 rounded text-base">Open</button>
               <p className="font-title text-xl font-bold  mt-5 leading-5">Web3</p>
             </a>
           </div>
@@ -93,7 +93,7 @@ const Work = () => {
               aria-label="Article"
               className="inline-block mb-3 text-black transition-colors duration-200 hover:text-deep-purple-accent-700"
             >
-              <button className="text-white bg-sky-700 border-0 py-2 px-8 focus:outline-none hover:bg-sky-800 rounded text-lg">Open</button>
+              <button className="text-white bg-sky-700 border-0 py-2 px-4 focus:outline-none hover:bg-sky-800 rounded text-base">Open</button>
               <p className="font-title text-xl font-bold leading-5 mt-5">NFT App</p>
             </a>
           </div>
@@ -113,7 +113,7 @@ const Work = () => {
               aria-label="Article"
               className="inline-block mb-3 text-black transition-colors duration-200 hover:text-deep-purple-accent-700"
             >
-              <button className="text-white bg-sky-700 border-0 py-2 px-8 focus:outline-none hover:bg-sky-800 rounded text-lg">Open</button>
+              <button className="text-white bg-sky-700 border-0 py-2 px-4 focus:outline-none hover:bg-sky-800 rounded text-base">Open</button>
               <p className="font-title text-xl font-bold leading-5 mt-5 ">3D Model Mockup</p>
             </a>
           </div>
