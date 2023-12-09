@@ -10,8 +10,8 @@ const About = () => {
           About Me
         </h2>
         <p className="font-nav text-base text-gray-700 md:text-lg sm:px-4">
-          Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-          accusantium doloremque rem aperiam, eaque ipsa quae.
+          
+I am Krithika Manikantan, a dedicated individual currently pursuing a Master's in Computer Application at Amity University, Mumbai. My academic journey is complemented by a robust skill set encompassing Web Development, Graphic Design, and UI/UX Design. This multifaceted proficiency positions me as a versatile candidate with a comprehensive understanding of both technical and creative aspects. Through academic pursuits and practical experiences, I continually refine my abilities, seeking to contribute innovative solutions in the dynamic realms of technology and design. My passion for excellence and commitment to continuous learning drive my ambition to excel in the ever-evolving landscape of computer applications.
         </p>
       </div>
     </div>
