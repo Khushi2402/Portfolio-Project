@@ -1,3 +1,29 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@import './fonts.css';
+
+.font-name {
+    font-family: 'Poppins';
+    font-weight: 600;
+}
+
+.font-nav {
+    font-family: 'Poppins';
+    font-weight: 300;
+}
+
+.font-title {
+    font-family: 'Poppins';
+    font-weight: 400;
+}
+
+.button {
+    font-family: 'Poppins';
+}
+
+.nav-link.active {
+    text-decoration: underline;
+    font-weight: 600;
+  }

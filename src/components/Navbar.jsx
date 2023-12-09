@@ -2,6 +2,8 @@ import React, {useState} from "react";
 
 import K from '../image/K.svg';
 
+import { NavLink } from 'react-router-dom';
+
 export default function Navbar() {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
   
@@ -14,19 +16,19 @@ export default function Navbar() {
             title="Company"
             class="inline-flex items-center"
           >
-            <span class="ml-2 text-xl font-bold tracking-wide text-gray-800 uppercase">
+            <span class="font-name ml-2 text-xl font-bold tracking-wide text-gray-800 uppercase">
               Krithika Manikantan
             </span>
           </a>
-          <ul class="flex items-center hidden space-x-8 lg:flex">
+          <ul class="font-nav flex items-center hidden space-x-8 lg:flex">
             <li>
               <a
                 href="/"
                 aria-label="Our product"
                 title="Our product"
-                class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
+                class=" tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
               >
-                Home
+                <NavLink to="/" className="nav-link">Home</NavLink>
               </a>
             </li>
             <li>
@@ -34,9 +36,9 @@ export default function Navbar() {
                 href="/"
                 aria-label="Our product"
                 title="Our product"
-                class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
+                class=" tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
               >
-                About Me
+                <NavLink to="/about" className="nav-link">About Me</NavLink>
               </a>
             </li>
             <li>
@@ -44,9 +46,9 @@ export default function Navbar() {
                 href="/"
                 aria-label="Product pricing"
                 title="Product pricing"
-                class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
+                class=" tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
               >
-                Work
+                <NavLink to="/work" className="nav-link">Work</NavLink>
               </a>
             </li>
             <li>
@@ -54,9 +56,9 @@ export default function Navbar() {
                 href="/"
                 aria-label="About us"
                 title="About us"
-                class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
+                class="tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
               >
-                Contact
+                <NavLink to="/contact" className="nav-link">Contact</NavLink>
               </a>
             </li>
           </ul>
@@ -95,7 +97,7 @@ export default function Navbar() {
                         class="inline-flex items-center"
                       >
                         
-                        <span class="ml-2 text-xl font-bold tracking-wide text-gray-800 uppercase">
+                        <span class="font-name ml-2 text-xl font-bold tracking-wide text-gray-800 uppercase">
                           Krithika 
                         </span>
                       </a>
@@ -117,7 +119,7 @@ export default function Navbar() {
                     </div>
                   </div>
                   <nav>
-                    <ul class="space-y-4">
+                    <ul class="font-nav space-y-4">
                       <li>
                         <a
                           href="/"
@@ -125,7 +127,7 @@ export default function Navbar() {
                           title="Our product"
                           class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
                         >
-                          Home
+                          <NavLink to="/" className="nav-link">Home</NavLink>
                         </a>
                       </li>
                       <li>
@@ -135,7 +137,7 @@ export default function Navbar() {
                           title="Our product"
                           class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
                         >
-                          About Me
+                          <NavLink to="/about" className="nav-link">About Me</NavLink>
                         </a>
                       </li>
                       <li>
@@ -145,7 +147,7 @@ export default function Navbar() {
                           title="Product pricing"
                           class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
                         >
-                          Work
+                          <NavLink to="/work" className="nav-link">Work</NavLink>
                         </a>
                       </li>
                       <li>
@@ -155,7 +157,7 @@ export default function Navbar() {
                           title="About us"
                           class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
                         >
-                          Contact 
+                          <NavLink to="/contact" className="nav-link">Contact</NavLink>
                         </a>
                       </li>
                       
