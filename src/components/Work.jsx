@@ -1,5 +1,11 @@
 import React from "react";
 
+import ride from '../image/ride.png';
+import meal from '../image/meal.png';
+import web3 from '../image/web3.jpg';
+import nft from '../image/nft.jpg';
+import model from '../image/model.png';
+
 const Work = () => {
     return(
       <div name="work">
@@ -15,7 +21,7 @@ const Work = () => {
         <div className="overflow-hidden transition-shadow duration-300 bg-white rounded">
           <a href="https://www.figma.com/file/Jtw21zeaG4lz56XKtLs8Lk/ride.ev?type=design&node-id=0%3A1&mode=design&t=E9XUXL7xWIvfQTn2-1" aria-label="Article">
             <img
-              src="https://images.pexels.com/photos/932638/pexels-photo-932638.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=3&amp;h=750&amp;w=1260"
+              src={ride}
               className="object-cover w-full h-64 rounded"
               alt=""
             />
@@ -35,7 +41,7 @@ const Work = () => {
         <div className="overflow-hidden transition-shadow duration-300 bg-white rounded">
           <a href="https://www.figma.com/file/679clRF5lQJOul9NiFyUH9/Meal-Planner-App?type=design&node-id=0%3A1&mode=design&t=V2XayuXyq9EZMH0r-1" aria-label="Article">
             <img
-              src="https://images.pexels.com/photos/1576937/pexels-photo-1576937.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;w=500"
+              src={meal}
               className="object-cover w-full h-64 rounded"
               alt=""
             />
@@ -54,7 +60,7 @@ const Work = () => {
         <div className="overflow-hidden transition-shadow duration-300 bg-white rounded">
           <a href="https://www.figma.com/file/vHOLR9pvHivOAcrKcLIGC8/Assignment-3?type=design&node-id=0%3A1&mode=design&t=6ZUYks5MgWMJIzwK-1" aria-label="Article">
             <img
-              src="https://images.pexels.com/photos/1576937/pexels-photo-1576937.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;w=500"
+              src={web3}
               className="object-cover w-full h-64 rounded"
               alt=""
             />
@@ -73,7 +79,7 @@ const Work = () => {
         <div className="overflow-hidden transition-shadow duration-300 bg-white rounded">
           <a href="https://www.figma.com/file/4cJmipjSSoq4YPD3SzdQ71/UI-Design-a-Dark-Mode-NFT-app?type=design&node-id=60%3A543&mode=design&t=TIMhD5d94iIp9fJe-1" aria-label="Article">
             <img
-              src="https://images.pexels.com/photos/1576937/pexels-photo-1576937.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;w=500"
+              src={nft}
               className="object-cover w-full h-64 rounded"
               alt=""
             />
@@ -92,7 +98,7 @@ const Work = () => {
         <div className="overflow-hidden transition-shadow duration-300 bg-white rounded">
           <a href="https://www.figma.com/file/1S9jkmnDYqMOKecw8CDF15/%F0%9F%93%A6-3D-models-for-your-new-app-design-(Community)?type=design&node-id=23%3A52&mode=design&t=pCiYI7IXfynIieFc-1" aria-label="Article">
             <img
-              src="https://images.pexels.com/photos/1576937/pexels-photo-1576937.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;w=500"
+              src={model}
               className="object-cover w-full h-64 rounded"
               alt=""
             />
