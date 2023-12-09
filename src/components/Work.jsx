@@ -1,9 +1,9 @@
 import React from "react";
 
-import ride from '../image/ride.png';
-import meal from '../image/meal.png';
-import web3 from '../image/web3.jpg';
-import nft from '../image/nft.jpg';
+import ride from '../image/ride.svg';
+import meal from '../image/meal.svg';
+import web3 from '../image/web3.svg';
+import nft from '../image/nft.svg';
 import model from '../image/model.png';
 
 const Work = () => {
@@ -33,7 +33,8 @@ const Work = () => {
               aria-label="Article"
               className="inline-block mb-3 text-black transition-colors duration-200 hover:text-deep-purple-accent-700"
             >
-              <p className="font-title text-xl font-bold leading-5">Ride.ev</p>
+              <button className="text-white bg-sky-700 border-0 py-2 px-8 focus:outline-none hover:bg-sky-800 rounded text-lg">Open</button>
+              <p className="font-title mt-5 text-xl font-bold leading-5">Ride.ev</p>
             </a>
           </div>
         </div> 
@@ -52,7 +53,8 @@ const Work = () => {
               aria-label="Article"
               className="inline-block mb-3 text-black transition-colors duration-200 hover:text-deep-purple-accent-700"
             >
-              <p className="font-title text-xl font-bold leading-5">Meal Planner</p>
+              <button className="text-white bg-sky-700 border-0 py-2 px-8 focus:outline-none hover:bg-sky-800 rounded text-lg">Open</button>
+              <p className="font-title text-xl mt-5 font-bold leading-5">Meal Planner</p>
             </a>
           </div>
         </div>
@@ -71,7 +73,8 @@ const Work = () => {
               aria-label="Article"
               className="inline-block mb-3 text-black transition-colors duration-200 hover:text-deep-purple-accent-700"
             >
-              <p className="font-title text-xl font-bold leading-5">Web3</p>
+              <button className="text-white bg-sky-700 border-0 py-2 px-8 focus:outline-none hover:bg-sky-800 rounded text-lg">Open</button>
+              <p className="font-title text-xl font-bold  mt-5 leading-5">Web3</p>
             </a>
           </div>
         </div>
@@ -90,7 +93,8 @@ const Work = () => {
               aria-label="Article"
               className="inline-block mb-3 text-black transition-colors duration-200 hover:text-deep-purple-accent-700"
             >
-              <p className="font-title text-xl font-bold leading-5">NFT App</p>
+              <button className="text-white bg-sky-700 border-0 py-2 px-8 focus:outline-none hover:bg-sky-800 rounded text-lg">Open</button>
+              <p className="font-title text-xl font-bold leading-5 mt-5">NFT App</p>
             </a>
           </div>
         </div>
@@ -99,7 +103,7 @@ const Work = () => {
           <a href="https://www.figma.com/file/1S9jkmnDYqMOKecw8CDF15/%F0%9F%93%A6-3D-models-for-your-new-app-design-(Community)?type=design&node-id=23%3A52&mode=design&t=pCiYI7IXfynIieFc-1" aria-label="Article">
             <img
               src={model}
-              className="object-cover w-full h-64 rounded"
+              className="w-full h-64 rounded"
               alt=""
             />
           </a>
@@ -109,7 +113,8 @@ const Work = () => {
               aria-label="Article"
               className="inline-block mb-3 text-black transition-colors duration-200 hover:text-deep-purple-accent-700"
             >
-              <p className="font-title text-xl font-bold leading-5">3D Model Mockup</p>
+              <button className="text-white bg-sky-700 border-0 py-2 px-8 focus:outline-none hover:bg-sky-800 rounded text-lg">Open</button>
+              <p className="font-title text-xl font-bold leading-5 mt-5 ">3D Model Mockup</p>
             </a>
           </div>
         </div>
