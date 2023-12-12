@@ -5,6 +5,7 @@ import meal from '../image/meal.svg';
 import web3 from '../image/web3.svg';
 import nft from '../image/nft.svg';
 import model from '../image/model.png';
+import mcd from '../image/mcd.png';
 
 const Work = () => {
     return(
@@ -38,6 +39,8 @@ const Work = () => {
             </a>
           </div>
         </div> 
+
+        
         
         <div className="overflow-hidden transition-shadow duration-300 bg-white rounded">
           <a href="https://www.figma.com/file/679clRF5lQJOul9NiFyUH9/Meal-Planner-App?type=design&node-id=0%3A1&mode=design&t=V2XayuXyq9EZMH0r-1" aria-label="Article">
@@ -118,6 +121,28 @@ const Work = () => {
             </a>
           </div>
         </div>
+
+        <div className="overflow-hidden transition-shadow duration-300 bg-white rounded">
+          <a href="https://www.figma.com/file/PvuNfJcam53c8RRuiBhaZV/McDonals-Re?type=design&node-id=0%3A1&mode=design&t=55moPkZvvIdJ2KqN-1 " aria-label="Article">
+            <img
+              src={mcd}
+              className="object-cover w-full h-64 rounded"
+              alt=""
+            />
+          </a>
+          <div className="py-5">
+            
+            <a
+              href="https://www.figma.com/file/PvuNfJcam53c8RRuiBhaZV/McDonals-Re?type=design&node-id=0%3A1&mode=design&t=55moPkZvvIdJ2KqN-1 "
+              aria-label="Article"
+              className="inline-block mb-3 text-black transition-colors duration-200 hover:text-deep-purple-accent-700"
+            >
+              <button className="text-white bg-sky-700 border-0 py-2 px-4 focus:outline-none hover:bg-sky-800 rounded text-base">Open</button>
+              <p className="font-title mt-5 text-xl font-bold leading-5">McDonals Re</p>
+            </a>
+          </div>
+        </div> 
+
       </div>
     </div>
       </div>
