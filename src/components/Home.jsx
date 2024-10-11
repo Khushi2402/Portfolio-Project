@@ -16,7 +16,7 @@ const Home = () => {
       <h1 class="font-name title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">Hi! I'm
         <br class="hidden lg:inline-block"/>Krithika Manikantan
       </h1>
-      <p class="font-nav mb-8 leading-relaxed">Seeking a position as Web Developer, UI/UX Designer, at a corporate headquarter where development is the key focus.</p>
+      <p class="font-nav mb-8 leading-relaxed">A passionate Graphic Designer and UI/UX Enthusiast. I'm looking to bring my creative expertise to a dynamic corporate environment where design and development play a central role in shaping impactful digital experiences.</p>
       <div class="flex justify-center">
         <Link to="/contact">
         <button class="button inline-flex text-white bg-sky-700 border-0 py-2 px-6 focus:outline-none hover:bg-sky-800 rounded text-lg">Contact Me</button>
